@@ -83,7 +83,7 @@ def csv_pack(name,params,mode='a+'):
 
 def check_if_news():
 	sites = get_sites()
-	driver = create_driver(False)
+	driver = create_driver()
 
 	for site in sites:
 		try:
